@@ -676,6 +676,10 @@
             <Description xml:space="preserve">Ice Cave Podium</Description>
             <Number>6</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>Test</Description>
+            <Number>7</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2535,8 +2539,8 @@
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>226</StartX>
-            <StartY>153</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartY>188</StartY>
+            <StartingRoom>7</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3189,7 +3193,13 @@ stop
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>NumBadges</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -4527,6 +4537,51 @@ stop
                   <Sprite Slot="21" Width="20" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Assets/Sprites/iCowboy_Badge_Glow.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>21</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="25" Width="20" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Sprites/Cowboy Badge/Half Badge.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>21</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="26" Width="20" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Sprites/Cowboy Badge/Red Badge.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>21</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="27" Width="20" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Sprites/Cowboy Badge/Light Blue Badge.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>21</ImportHeight>
