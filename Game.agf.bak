@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>10</AudioIndexer>
+      <AudioIndexer>11</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -2538,9 +2538,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>226</StartX>
-            <StartY>188</StartY>
-            <StartingRoom>7</StartingRoom>
+            <StartX>585</StartX>
+            <StartY>450</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4698,6 +4698,71 @@ stop
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="Electrical Chord">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="28" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Assets/Sprites/ElectricalChord/Chord0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="29" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Assets/Sprites/ElectricalChord/Chord1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="30" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Assets/Sprites/ElectricalChord/Chord2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="31" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Assets/Sprites/ElectricalChord/Chord3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites>
                   <Sprite Slot="18" Width="20" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5294,6 +5359,79 @@ stop
                   </View>
                 </Views>
               </ViewFolder>
+              <ViewFolder Name="Electrical Chord">
+                <SubFolders />
+                <Views>
+                  <View>
+                    <ID>6</ID>
+                    <Name>VEl_Chord</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>0</ID>
+                            <Image>28</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>1</ID>
+                            <Image>29</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>2</ID>
+                            <Image>30</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>3</ID>
+                            <Image>31</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>4</ID>
+                            <Image>28</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>5</ID>
+                            <Image>28</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>6</ID>
+                            <Image>28</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>7</ID>
+                            <Image>28</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                </Views>
+              </ViewFolder>
             </SubFolders>
             <Views />
           </ViewFolder>
@@ -5863,6 +6001,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>Assets/Audio/Fanfare1.ogg</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2022-07-10 21:32:32Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>9</ID>
+                <Index>11</Index>
+                <ScriptName>aElectriczap</ScriptName>
+                <SourceFileName>Assets/Sprites/ElectricalChord/electriczap.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-09-11 14:53:45Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
