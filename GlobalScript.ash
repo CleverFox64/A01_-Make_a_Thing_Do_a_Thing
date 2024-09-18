@@ -4,3 +4,4 @@
 // scripts.
 import function GiveScoreWithSound(int points);
 import function GoToObjectAndPickUp (Object *pickup);
+import function UpdateMusic();
