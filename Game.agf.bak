@@ -2538,9 +2538,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>165</StartX>
-            <StartY>165</StartY>
-            <StartingRoom>7</StartingRoom>
+            <StartX>218</StartX>
+            <StartY>152</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2889,6 +2889,19 @@ stop
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
+      <MouseCursor>
+        <Animate>False</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <AnimationDelay>5</AnimationDelay>
+        <HotspotX>3</HotspotX>
+        <HotspotY>3</HotspotY>
+        <ID>10</ID>
+        <Image>39</Image>
+        <Name>Drag</Name>
+        <StandardMode>True</StandardMode>
+        <View>0</View>
+      </MouseCursor>
     </Cursors>
     <Fonts>
       <Font>
@@ -3203,6 +3216,16 @@ stop
           <DefaultValue />
           <Name>BgMusic</Name>
           <Type>AudioChannel*</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>isDragging</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>draggedObject</Name>
+          <Type>Object*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4346,6 +4369,21 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>24</ImportHeight>
                       <ImportWidth>27</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="39" Width="19" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Sprites/Cursors/Drag Hand.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>28</ImportHeight>
+                      <ImportWidth>19</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
